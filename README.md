@@ -47,5 +47,5 @@ vlog *.v
 Launch the simulation and automatically configure the waveform window by executing the TCL script:
 
 ```bash
-do run_sim.tcl
+do run.tcl
 ```
