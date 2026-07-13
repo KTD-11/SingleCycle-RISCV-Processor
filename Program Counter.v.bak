@@ -1,0 +1,18 @@
+module Program_Counter(
+  input               clk,
+  input               rst, 
+  input               load,
+  input       [31: 0] PCNext,
+
+  output reg  [31: 0] PC
+);
+
+always @(posedge clk or !rst) begin
+  if (!rst)
+    PC <= 0;
+  else begin
+    PC <= load ? PCNext : PC;
+  end
+end
+
+endmodule

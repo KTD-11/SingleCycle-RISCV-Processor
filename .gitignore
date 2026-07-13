@@ -1,0 +1,9 @@
+work/
+transcript
+*.wlf
+*.txt
+*.ini
+*.mpf
+*.log
+*.DS_Store
+*.tcl

@@ -1,0 +1,89 @@
+{/home/ktd/RISCV 2.0/2x1MUX.v} {1 {vlog -work work -vopt -stats=none {/home/ktd/RISCV 2.0/2x1MUX.v}
+Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+** Note: (vlog-220) '/home/ktd/RISCV 2.0/RISCV 2.0.mpf' is used as the ini file.
+-- Compiling module MUX2x1
+
+Top level modules:
+	MUX2x1
+
+} {} {}} {/home/ktd/RISCV 2.0/MC_tb.v} {1 {vlog -work work -vopt -stats=none {/home/ktd/RISCV 2.0/MC_tb.v}
+Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+** Note: (vlog-220) '/home/ktd/RISCV 2.0/RISCV 2.0.mpf' is used as the ini file.
+-- Compiling module MC_tb
+
+Top level modules:
+	MC_tb
+
+} {} {}} {/home/ktd/RISCV 2.0/Control Unit.v} {1 {vlog -work work -vopt -stats=none {/home/ktd/RISCV 2.0/Control Unit.v}
+Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+** Note: (vlog-220) '/home/ktd/RISCV 2.0/RISCV 2.0.mpf' is used as the ini file.
+-- Compiling module Control_Unit
+
+Top level modules:
+	Control_Unit
+
+} {} {}} {/home/ktd/RISCV 2.0/Register File.v} {1 {vlog -work work -vopt -stats=none {/home/ktd/RISCV 2.0/Register File.v}
+Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+** Note: (vlog-220) '/home/ktd/RISCV 2.0/RISCV 2.0.mpf' is used as the ini file.
+-- Compiling module Register_File
+
+Top level modules:
+	Register_File
+
+} {} {}} {/home/ktd/RISCV 2.0/Sign Extend.v} {1 {vlog -work work -vopt -stats=none {/home/ktd/RISCV 2.0/Sign Extend.v}
+Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+** Note: (vlog-220) '/home/ktd/RISCV 2.0/RISCV 2.0.mpf' is used as the ini file.
+-- Compiling module Sign_Extend
+
+Top level modules:
+	Sign_Extend
+
+} {} {}} {/home/ktd/RISCV 2.0/PC Calculation.v} {1 {vlog -work work -vopt -stats=none {/home/ktd/RISCV 2.0/PC Calculation.v}
+Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+** Note: (vlog-220) '/home/ktd/RISCV 2.0/RISCV 2.0.mpf' is used as the ini file.
+-- Compiling module PC_Calculation
+
+Top level modules:
+	PC_Calculation
+
+} {} {}} {/home/ktd/RISCV 2.0/ALU.v} {1 {vlog -work work -vopt -stats=none {/home/ktd/RISCV 2.0/ALU.v}
+Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+** Note: (vlog-220) '/home/ktd/RISCV 2.0/RISCV 2.0.mpf' is used as the ini file.
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {/home/ktd/RISCV 2.0/Data Memory.v} {1 {vlog -work work -vopt -stats=none {/home/ktd/RISCV 2.0/Data Memory.v}
+Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+** Note: (vlog-220) '/home/ktd/RISCV 2.0/RISCV 2.0.mpf' is used as the ini file.
+-- Compiling module Data_Memory
+
+Top level modules:
+	Data_Memory
+
+} {} {}} {/home/ktd/RISCV 2.0/Instruction Memory.v} {1 {vlog -work work -vopt -stats=none {/home/ktd/RISCV 2.0/Instruction Memory.v}
+Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+** Note: (vlog-220) '/home/ktd/RISCV 2.0/RISCV 2.0.mpf' is used as the ini file.
+-- Compiling module Instruction_Memory
+
+Top level modules:
+	Instruction_Memory
+
+} {} {}} {/home/ktd/RISCV 2.0/MC.v} {1 {vlog -work work -vopt -stats=none {/home/ktd/RISCV 2.0/MC.v}
+Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+** Note: (vlog-220) '/home/ktd/RISCV 2.0/RISCV 2.0.mpf' is used as the ini file.
+-- Compiling module MC
+
+Top level modules:
+	MC
+
+} {} {}} {/home/ktd/RISCV 2.0/Program Counter.v} {1 {vlog -work work -vopt -stats=none {/home/ktd/RISCV 2.0/Program Counter.v}
+Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+** Note: (vlog-220) '/home/ktd/RISCV 2.0/RISCV 2.0.mpf' is used as the ini file.
+-- Compiling module Program_Counter
+
+Top level modules:
+	Program_Counter
+
+} {} {}}

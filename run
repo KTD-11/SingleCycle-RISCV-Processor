@@ -1,0 +1,8 @@
+
+vsim -voptargs="+acc" work.MC_tb
+
+add wave -color "white" -radix decimal "sim:/MC_tb/MC_DUT/Register_File_instance/mem"
+
+add wave -color "blue" -radix decimal "sim:/MC_tb/MC_DUT/Data_Memory_instance/mem"
+
+run -all

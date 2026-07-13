@@ -1,0 +1,26 @@
+module MC_tb;
+
+reg clk;
+reg rst;
+
+MC MC_DUT(.clk(clk), .rst(rst));
+
+always #5 clk = ~clk;
+
+initial begin
+
+	$readmemh("program.txt", MC_DUT.Instruction_Memory_instance.mem);
+	
+	clk = 0;
+	rst = 0;
+
+	#12
+
+	rst = 1;
+	
+	#1000;
+
+ 	$stop;
+end
+
+endmodule

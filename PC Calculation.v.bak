@@ -1,0 +1,13 @@
+module PC_Calculation(
+  input              PCSrc,
+  input      [31: 0] PC,
+  input      [31: 0] ImmExt,
+
+  output reg [31: 0] PCNext
+);
+
+always @(*) begin
+  PCNext = ( PCSrc ) ? PC + ImmExt : PC + 4;
+end
+
+endmodule
