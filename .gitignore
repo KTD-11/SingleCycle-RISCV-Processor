@@ -7,3 +7,4 @@ transcript
 *.log
 *.DS_Store
 *.tcl
+*.bak
