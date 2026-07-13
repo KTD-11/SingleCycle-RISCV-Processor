@@ -5,7 +5,7 @@ This repository contains a complete Verilog hardware implementation of a single-
 ## Features
 
 * **RV32I Core Architecture:** Supports basic R-type (add, sub, and, or, xor, sll, srl), I-type (addi), Load (lw), Store (sw), and Branch (beq, bne, blt) operations.
-* **Compliant Register File:** 32-bit wide, 32-register array with strict architectural enforcement of $x0$ hardwired to `0`.
+* **Compliant Register File:** 32-bit wide, 32-register array with strict architectural enforcement of register `x0` hardwired to `0`.
 * **32-Bit ALU:** Full arithmetic and logic unit with automated zero and sign flag generation for branch resolution.
 * **Latch-Free Control Unit:** Clean combinational control logic designed to prevent inferred latches during synthesis.
 * **Automated Verification:** Fully automated testbench setup driven by a custom TCL simulation script.
@@ -23,7 +23,7 @@ The processor is divided into clean, dedicated hardware modules:
 * `Data_Memory.v` - RAM storage for data operations.
 * `Instruction_Memory.v` - ROM storing execution machine code.
 * `Program_Counter.v` - Pointer register tracks current instruction address.
-* `PC_Calculation.v` - Computes branch targets or standard sequential instruction steps ($PC + 4$).
+* `PC_Calculation.v` - Computes branch targets or standard sequential instruction steps (`PC + 4`).
 * `Sign_Extend.v` - Sign-extension logic formatting immediate fields.
 * `MUX2x1.v` - 32-bit parametric multiplexer for datapath multiplexing.
 * `MC_tb.v` - System testbench driving the clock, reset, and simulation assertions.
@@ -40,10 +40,12 @@ In your ModelSim/Questa terminal, compile all the Verilog source files:
 
 ```bash
 vlog *.v
+```
 
 ### 2. Run the Automation Script
 
 Launch the simulation and automatically configure the waveform window by executing the TCL script:
 
-Bash
+```bash
 do run_sim.tcl
+```
