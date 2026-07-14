@@ -31,6 +31,29 @@ The processor is divided into clean, dedicated hardware modules:
 
 ---
 
+## Instruction Loading with `$readmemh`
+
+The processor's instruction memory is designed as a ROM that dynamically loads pre-compiled machine code instructions at the start of simulation. This is handled inside `MC_tb.v` using the Verilog `$readmemh` system task:
+
+```verilog
+initial begin
+    $readmemh("instructions.txt", MC_DUT.Instruction_Memory_instance.mem);
+end
+```
+
+### Formatting the Instruction File
+* Create a file named `instructions.txt` in the same directory as your simulation files.
+* Populate it with compiled 32-bit RISC-V hexadecimal instructions (one per line, without the `0x` prefix).
+* For example, a simple sequence initializing registers might look like this:
+
+```text
+00500093 // addi x1, x0, 5
+00a00113 // addi x2, x0, 10
+002081b3 // add x3, x1, x2
+```
+
+---
+
 ## How to Simulate
 
 The simulation is automated to run out-of-the-box inside ModelSim or Questa Sim.
